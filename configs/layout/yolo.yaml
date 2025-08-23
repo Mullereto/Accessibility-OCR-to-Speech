@@ -1,0 +1,9 @@
+engine: yolo
+confidence_threshold: 0.5
+model_path: "models/yolo_layout.pt"
+use_gpu: false
+model_size: "n"  # n, s, m, l, x
+img_size: 640
+iou_threshold: 0.45
+agnostic_nms: true
+max_det: 1000

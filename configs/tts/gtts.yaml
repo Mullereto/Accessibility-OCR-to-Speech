@@ -1,0 +1,9 @@
+engine: gtts
+voice: "ar"
+speed: 1.0
+language: "ar"
+fallback_language: "en"
+use_gpu: false
+sample_rate: 22050
+tld: "com"
+slow: false

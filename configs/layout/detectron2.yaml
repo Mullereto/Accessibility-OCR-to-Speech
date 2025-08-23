@@ -1,0 +1,9 @@
+engine: detectron2
+confidence_threshold: 0.5
+model_path: "models/detectron2_layout"
+use_gpu: false
+num_classes: 5
+min_size_test: 800
+max_size_test: 1333
+model_type: "COCO-Detection/faster_rcnn_R_50_FPN_3x"
+config_file: "configs/COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"

@@ -1,0 +1,30 @@
+defaults:
+  - ocr: paddle
+  - tts: coqui
+  - layout: detectron2
+  - _self_
+
+# Global settings
+experiment_name: "accessibility_ocr_tts"
+mlflow_tracking_uri: "sqlite:///mlruns.db"
+
+# Pipeline settings
+pipeline:
+  enable_preprocessing: true
+  enable_layout_detection: true
+  enable_language_detection: true
+  output_format: "mp3"
+  output_quality: "high"
+
+# Logging settings
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/accessibility_ocr_tts.log"
+
+# Data settings
+data:
+  input_formats: ["pdf", "png", "jpg", "jpeg"]
+  max_file_size_mb: 50
+  supported_languages: ["ar", "en"]
+  primary_language: "ar"

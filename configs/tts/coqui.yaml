@@ -1,0 +1,13 @@
+engine: coqui
+voice: "ar_female_01"
+speed: 1.0
+language: "ar"
+model_path: "models/coqui_arabic"
+use_gpu: false
+sample_rate: 22050
+chunk_length: 1024
+temperature: 0.8
+length_penalty: 1.0
+repetition_penalty: 2.0
+top_k: 50
+top_p: 0.8

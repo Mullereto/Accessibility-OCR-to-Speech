@@ -1,0 +1,8 @@
+engine: tesseract
+confidence_threshold: 0.6
+language: "ara+eng"
+fallback_language: "eng"
+model_path: "models/tesseract"
+psm: 6
+oem: 3
+config: "--oem 3 --psm 6 -c tessedit_char_whitelist=0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهويى"
