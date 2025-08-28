@@ -1,13 +1,4 @@
 engine: paddle
 confidence_threshold: 0.7
 language: "ar"
-fallback_language: "en"
-model_path: "models/paddle_arabic"
-use_gpu: false
 use_angle_cls: true
-use_space_char: true
-det_db_thresh: 0.3
-det_db_box_thresh: 0.5
-det_db_unclip_ratio: 1.6
-rec_batch_num: 6
-rec_char_dict_path: "models/paddle_arabic_dict.txt"

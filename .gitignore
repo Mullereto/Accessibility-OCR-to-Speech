@@ -1,0 +1,7 @@
+__pycache__/
+docs/
+output/
+data/
+*.docx
+*.pdf
+*.mp3

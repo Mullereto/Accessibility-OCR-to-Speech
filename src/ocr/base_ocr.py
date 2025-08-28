@@ -6,9 +6,11 @@ from dataclasses import dataclass
 @dataclass
 class TextResult:
     text: str
-    confidence: float
-    bbox: List[int] # [x1, y1, x2, y2]
-    language: str
+    confidence: float = 0.0
+
+    bbox: List[int] = None # [x1, y1, x2, y2]
+
+    language: str = 'ar'
     
 class BaseOCREngine(ABC):
     def __init__(self, config: Dict[str, Any]):
@@ -23,7 +25,7 @@ class BaseOCREngine(ABC):
         """Extract text from image, return text with confidence."""
         pass
 
-    def is_available(self, image_path:str) -> bool:
+    def is_available(self) -> bool:
         """Check if the engine is available and ready to use."""
         return True
     
