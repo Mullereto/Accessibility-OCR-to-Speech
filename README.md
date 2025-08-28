@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ### Run the Streamlit App
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 ### Steps in the App
@@ -78,9 +78,3 @@ Install them via:
 pip install -r requirements.txt
 ```
 
----
-
-## 👨‍💻 Author
-
-Developed by **Omar Yasser**  
-AI/ML Developer • Focused on OCR, NLP, and Accessibility Tools
