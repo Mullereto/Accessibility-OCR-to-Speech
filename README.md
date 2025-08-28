@@ -10,7 +10,7 @@ The project also includes a **Streamlit web app** for an interactive user experi
 - 📂 Supports **PDF, DOCX, PNG, JPG, JPEG** uploads  
 - 🔍 OCR using:
   - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-  - Custom OCR (e.g., Mistral API)  
+  - [Mistral API](https://mistral.ai/)  
 - 🎤 TTS using:
   - [gTTS](https://pypi.org/project/gTTS/) (Google Text-to-Speech)  
 - 🖼️ Preprocessing pipeline with **OpenCV** for better OCR results  
